@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectTemplate.build/master.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/Sources/PerfectTemplate/main.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectTemplate.build/main.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectTemplate.build/main.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectTemplate.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectTemplate.build/main.swiftdeps"
+  }
+}

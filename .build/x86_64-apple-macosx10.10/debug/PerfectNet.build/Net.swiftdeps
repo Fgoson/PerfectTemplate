@@ -1,0 +1,644 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketType"
+- "invalidSocket"
+- "BytesSwappingUnsignedInteger"
+- "PerfectNetError"
+- "ThrowNetworkError"
+- "ReferenceBuffer"
+- "SocketFileDescriptor"
+- "Net"
+- "=="
+provides-nominal:
+- "10PerfectNet28BytesSwappingUnsignedIntegerP"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "10PerfectNet0aB5ErrorO"
+- "10PerfectNet15ReferenceBufferC"
+- "10PerfectNet20SocketFileDescriptorV"
+- "10PerfectNet0B0C"
+provides-member:
+- ["SU", ""]
+- ["10PerfectNet28BytesSwappingUnsignedIntegerP", ""]
+- ["s6UInt16V", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt64V", ""]
+- ["10PerfectNet0aB5ErrorO", ""]
+- ["10PerfectNet15ReferenceBufferC", ""]
+- ["10PerfectNet20SocketFileDescriptorV", ""]
+- ["10PerfectNet0B0C", ""]
+- ["SU", "hostIsLittleEndian"]
+- ["10PerfectNet28BytesSwappingUnsignedIntegerP", "hostToNet"]
+- ["10PerfectNet28BytesSwappingUnsignedIntegerP", "netToHost"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&"
+- !private "&&"
+- !private "+"
+- "=="
+- !private ">="
+- !private "AF_INET"
+- !private "AF_INET6"
+- "AF_UNSPEC"
+- "AssignmentPrecedence"
+- "Bool"
+- "BytesSwappingUnsignedInteger"
+- !private "Darwin"
+- !private "EAGAIN"
+- !private "EAI_AGAIN"
+- !private "EAI_NONAME"
+- "Equatable"
+- "Error"
+- !private "F_GETFL"
+- !private "F_SETFL"
+- "FloatLiteralType"
+- "Int"
+- "Int32"
+- "IntegerLiteralType"
+- !private "MemoryLayout"
+- "Net"
+- "Never"
+- !private "O_NONBLOCK"
+- "PerfectNetError"
+- "ReferenceBuffer"
+- !private "SHUT_RDWR"
+- !private "SOCK_STREAM"
+- !private "SOL_SOCKET"
+- !private "SO_NOSIGPIPE"
+- !private "SO_REUSEADDR"
+- "SocketFileDescriptor"
+- "SocketType"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "Threading"
+- "ThrowNetworkError"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- !private "UnicodeScalarType"
+- !private "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- !private "UnsafeRawPointer"
+- "UnsignedInteger"
+- !private "addrinfo"
+- !private "errno"
+- !private "fcntl"
+- !private "freeaddrinfo"
+- !private "getaddrinfo"
+- !private "in_port_t"
+- "invalidSocket"
+- !private "memcpy"
+- !private "setsockopt"
+- !private "sockaddr"
+- !private "sockaddr_in"
+- !private "sockaddr_in6"
+- "sockaddr_storage"
+- !private "socket"
+- !private "socklen_t"
+- !private "strerror"
+- !private "|"
+- !private "~"
+- !private "~="
+depends-member:
+- !private ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- ["Sz", "Bool"]
+- ["Sz", "Self"]
+- !private ["Sz", "bigEndian"]
+- ["Sz", "byteSwapped"]
+- !private ["Sz", "hostIsLittleEndian"]
+- ["Sz", "init"]
+- !private ["Sz", "littleEndian"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["10PerfectNet28BytesSwappingUnsignedIntegerP", "Self"]
+- ["10PerfectNet28BytesSwappingUnsignedIntegerP", ""]
+- !private ["10PerfectNet28BytesSwappingUnsignedIntegerP", "bigEndian"]
+- ["10PerfectNet28BytesSwappingUnsignedIntegerP", "byteSwapped"]
+- !private ["10PerfectNet28BytesSwappingUnsignedIntegerP", "hostIsLittleEndian"]
+- ["10PerfectNet28BytesSwappingUnsignedIntegerP", "hostToNet"]
+- !private ["10PerfectNet28BytesSwappingUnsignedIntegerP", "init"]
+- ["10PerfectNet28BytesSwappingUnsignedIntegerP", "netToHost"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "bigEndian"]
+- ["s7CVarArgP", "byteSwapped"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "littleEndian"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- ["SL", "Bool"]
+- ["SL", "Self"]
+- !private ["SL", "advanced"]
+- !private ["SL", "bigEndian"]
+- ["SL", "byteSwapped"]
+- !private ["SL", "hostIsLittleEndian"]
+- ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "littleEndian"]
+- !private ["SL", "pointee"]
+- !private ["SL", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bigEndian"]
+- ["s29CustomPlaygroundQuickLookableP", "byteSwapped"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "littleEndian"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "bigEndian"]
+- ["s17CustomReflectableP", "byteSwapped"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "littleEndian"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- ["s23CustomStringConvertibleP", "Bool"]
+- ["s23CustomStringConvertibleP", "Self"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bigEndian"]
+- ["s23CustomStringConvertibleP", "byteSwapped"]
+- !private ["s23CustomStringConvertibleP", "hostIsLittleEndian"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "littleEndian"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "advanced"]
+- !private ["Se", "bigEndian"]
+- ["Se", "byteSwapped"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "littleEndian"]
+- !private ["Se", "withMemoryRebound"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "advanced"]
+- !private ["SE", "bigEndian"]
+- ["SE", "byteSwapped"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "littleEndian"]
+- !private ["SE", "withMemoryRebound"]
+- !private ["SQ", "AF_INET"]
+- !private ["SQ", "AF_INET6"]
+- ["SQ", "AF_UNSPEC"]
+- ["SQ", "Bool"]
+- !private ["SQ", "Darwin"]
+- !private ["SQ", "EAGAIN"]
+- !private ["SQ", "EAI_AGAIN"]
+- !private ["SQ", "EAI_NONAME"]
+- !private ["SQ", "Int32"]
+- !private ["SQ", "MemoryLayout"]
+- !private ["SQ", "SHUT_RDWR"]
+- !private ["SQ", "SOCK_STREAM"]
+- ["SQ", "Self"]
+- ["SQ", "SocketFileDescriptor"]
+- !private ["SQ", "Threading"]
+- !private ["SQ", "ThrowNetworkError"]
+- !private ["SQ", "UnsafeMutablePointer"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addrinfo"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "bigEndian"]
+- ["SQ", "byteSwapped"]
+- !private ["SQ", "close"]
+- !private ["SQ", "errno"]
+- !private ["SQ", "fd"]
+- !private ["SQ", "freeaddrinfo"]
+- !private ["SQ", "getaddrinfo"]
+- !private ["SQ", "hostIsLittleEndian"]
+- !private ["SQ", "in_port_t"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initSocket"]
+- ["SQ", "invalidSocket"]
+- !private ["SQ", "littleEndian"]
+- !private ["SQ", "makeAddress"]
+- !private ["SQ", "memcpy"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "shutdown"]
+- !private ["SQ", "sockaddr"]
+- !private ["SQ", "sockaddr_in"]
+- !private ["SQ", "sockaddr_in6"]
+- !private ["SQ", "sockaddr_storage"]
+- !private ["SQ", "socket"]
+- !private ["SQ", "socklen_t"]
+- !private ["SQ", "withMemoryRebound"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "networkError"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "Bool"]
+- ["s27ExpressibleByIntegerLiteralP", "Self"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bigEndian"]
+- ["s27ExpressibleByIntegerLiteralP", "byteSwapped"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hostIsLittleEndian"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "littleEndian"]
+- !private ["s23ExpressibleByNilLiteralP", "advanced"]
+- !private ["s23ExpressibleByNilLiteralP", "withMemoryRebound"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "bigEndian"]
+- ["s17FixedWidthIntegerP", "byteSwapped"]
+- ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "littleEndian"]
+- ["SH", "Bool"]
+- ["SH", "Self"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "advanced"]
+- !private ["SH", "bigEndian"]
+- ["SH", "byteSwapped"]
+- !private ["SH", "hostIsLittleEndian"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "littleEndian"]
+- !private ["SH", "pointee"]
+- !private ["SH", "withMemoryRebound"]
+- !private ["Si", "littleEndian"]
+- ["s5Int32V", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "_getBuiltinLogicValue"]
+- !private ["10PerfectLib15JSONConvertibleP", "advanced"]
+- !private ["10PerfectLib15JSONConvertibleP", "bigEndian"]
+- ["10PerfectLib15JSONConvertibleP", "byteSwapped"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "littleEndian"]
+- !private ["10PerfectLib15JSONConvertibleP", "withMemoryRebound"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "bigEndian"]
+- ["s25LosslessStringConvertibleP", "byteSwapped"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "littleEndian"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "littleEndian"]
+- !private ["SM", "init"]
+- ["10PerfectNet0B0C", "=="]
+- !private ["10PerfectNet0B0C", "AF_INET"]
+- !private ["10PerfectNet0B0C", "AF_INET6"]
+- ["10PerfectNet0B0C", "AF_UNSPEC"]
+- ["10PerfectNet0B0C", "Bool"]
+- !private ["10PerfectNet0B0C", "Darwin"]
+- !private ["10PerfectNet0B0C", "EAGAIN"]
+- !private ["10PerfectNet0B0C", "EAI_AGAIN"]
+- !private ["10PerfectNet0B0C", "EAI_NONAME"]
+- ["10PerfectNet0B0C", "Int"]
+- ["10PerfectNet0B0C", "Int32"]
+- !private ["10PerfectNet0B0C", "MemoryLayout"]
+- ["10PerfectNet0B0C", "Net"]
+- !private ["10PerfectNet0B0C", "SHUT_RDWR"]
+- !private ["10PerfectNet0B0C", "SOCK_STREAM"]
+- ["10PerfectNet0B0C", "SocketFileDescriptor"]
+- ["10PerfectNet0B0C", "String"]
+- !private ["10PerfectNet0B0C", "Threading"]
+- !private ["10PerfectNet0B0C", "ThrowNetworkError"]
+- ["10PerfectNet0B0C", "UInt16"]
+- !private ["10PerfectNet0B0C", "UnsafeMutablePointer"]
+- !private ["10PerfectNet0B0C", "addrinfo"]
+- ["10PerfectNet0B0C", "bind"]
+- ["10PerfectNet0B0C", "close"]
+- ["10PerfectNet0B0C", "deinit"]
+- !private ["10PerfectNet0B0C", "errno"]
+- ["10PerfectNet0B0C", "fd"]
+- !private ["10PerfectNet0B0C", "freeaddrinfo"]
+- !private ["10PerfectNet0B0C", "getaddrinfo"]
+- !private ["10PerfectNet0B0C", "in_port_t"]
+- ["10PerfectNet0B0C", "init"]
+- ["10PerfectNet0B0C", "initSocket"]
+- ["10PerfectNet0B0C", "invalidSocket"]
+- ["10PerfectNet0B0C", "isEAgain"]
+- ["10PerfectNet0B0C", "isValid"]
+- ["10PerfectNet0B0C", "listen"]
+- ["10PerfectNet0B0C", "makeAddress"]
+- !private ["10PerfectNet0B0C", "memcpy"]
+- ["10PerfectNet0B0C", "shutdown"]
+- !private ["10PerfectNet0B0C", "sockaddr"]
+- !private ["10PerfectNet0B0C", "sockaddr_in"]
+- !private ["10PerfectNet0B0C", "sockaddr_in6"]
+- ["10PerfectNet0B0C", "sockaddr_storage"]
+- !private ["10PerfectNet0B0C", "socket"]
+- !private ["10PerfectNet0B0C", "socklen_t"]
+- ["Sj", "Bool"]
+- ["Sj", "Self"]
+- !private ["Sj", "bigEndian"]
+- ["Sj", "byteSwapped"]
+- !private ["Sj", "hostIsLittleEndian"]
+- ["Sj", "init"]
+- !private ["Sj", "littleEndian"]
+- !private ["Sq", "advanced"]
+- !private ["Sq", "withMemoryRebound"]
+- ["10PerfectNet0aB5ErrorO", "Int32"]
+- ["10PerfectNet0aB5ErrorO", "String"]
+- ["10PerfectNet0aB5ErrorO", "_code"]
+- ["10PerfectNet0aB5ErrorO", "_domain"]
+- ["10PerfectNet0aB5ErrorO", "_getEmbeddedNSError"]
+- ["10PerfectNet0aB5ErrorO", "_userInfo"]
+- ["10PerfectNet0aB5ErrorO", "deinit"]
+- ["10PerfectNet0aB5ErrorO", "networkError"]
+- !private ["Sk", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["10PerfectNet15ReferenceBufferC", "Int"]
+- ["10PerfectNet15ReferenceBufferC", "UInt8"]
+- ["10PerfectNet15ReferenceBufferC", "UnsafeMutableRawPointer"]
+- !private ["10PerfectNet15ReferenceBufferC", "UnsafeRawPointer"]
+- ["10PerfectNet15ReferenceBufferC", "a"]
+- ["10PerfectNet15ReferenceBufferC", "init"]
+- ["10PerfectNet15ReferenceBufferC", "size"]
+- ["10PerfectNet15ReferenceBufferC", "subscript"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["SZ", "init"]
+- !private ["SZ", "littleEndian"]
+- ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "littleEndian"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "AF_UNSPEC"]
+- ["10PerfectNet20SocketFileDescriptorV", "Bool"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "F_GETFL"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "F_SETFL"]
+- ["10PerfectNet20SocketFileDescriptorV", "Int32"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "MemoryLayout"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "O_NONBLOCK"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "SOL_SOCKET"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "SO_NOSIGPIPE"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "SO_REUSEADDR"]
+- ["10PerfectNet20SocketFileDescriptorV", "SocketType"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "UInt32"]
+- ["10PerfectNet20SocketFileDescriptorV", "family"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "fcntl"]
+- ["10PerfectNet20SocketFileDescriptorV", "fd"]
+- ["10PerfectNet20SocketFileDescriptorV", "init"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "invalidSocket"]
+- ["10PerfectNet20SocketFileDescriptorV", "isValid"]
+- !private ["10PerfectNet20SocketFileDescriptorV", "setsockopt"]
+- ["10PerfectNet20SocketFileDescriptorV", "switchToBlocking"]
+- ["10PerfectNet20SocketFileDescriptorV", "switchToNonBlocking"]
+- ["Sx", "Bool"]
+- ["Sx", "Self"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "bigEndian"]
+- ["Sx", "byteSwapped"]
+- !private ["Sx", "hostIsLittleEndian"]
+- ["Sx", "init"]
+- !private ["Sx", "littleEndian"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "withMemoryRebound"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["13PerfectThread9ThreadingV", "sleep"]
+- !private ["s6UInt16V", "bigEndian"]
+- ["s6UInt16V", "byteSwapped"]
+- ["s6UInt16V", "deinit"]
+- !private ["s6UInt16V", "init"]
+- ["s6UInt32V", "byteSwapped"]
+- ["s6UInt32V", "deinit"]
+- !private ["s6UInt32V", "init"]
+- ["s6UInt64V", "byteSwapped"]
+- ["s6UInt64V", "deinit"]
+- !private ["Sp", "init"]
+- !private ["Sp", "pointee"]
+- !private ["Sp", "withMemoryRebound"]
+- !private ["Sv", "init"]
+- !private ["SV", "advanced"]
+- !private ["SV", "init"]
+- ["SU", "Bool"]
+- ["SU", "Self"]
+- ["SU", ""]
+- !private ["SU", "bigEndian"]
+- ["SU", "byteSwapped"]
+- ["SU", "hostIsLittleEndian"]
+- !private ["SU", "init"]
+- !private ["s18_BitwiseOperationsP", "bigEndian"]
+- ["s18_BitwiseOperationsP", "byteSwapped"]
+- ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "littleEndian"]
+- ["s15_CVarArgAlignedP", "byteSwapped"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bigEndian"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "byteSwapped"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "littleEndian"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bigEndian"]
+- ["s35_HasCustomAnyHashableRepresentationP", "byteSwapped"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "littleEndian"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "advanced"]
+- !private ["s21_ObjectiveCBridgeableP", "bigEndian"]
+- ["s21_ObjectiveCBridgeableP", "byteSwapped"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "littleEndian"]
+- !private ["s21_ObjectiveCBridgeableP", "withMemoryRebound"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+- !private ["s14_StringElementP", "bigEndian"]
+- ["s14_StringElementP", "byteSwapped"]
+- !private ["s14_StringElementP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["So8addrinfoV", "ai_addr"]
+- !private ["So8addrinfoV", "init"]
+- !private ["So8sockaddrV", "sa_family"]
+- !private ["So11sockaddr_inV", "sin_port"]
+- !private ["So12sockaddr_in6V", "sin6_port"]
+- !private ["So16sockaddr_storageV", "init"]
+- !private ["So16sockaddr_storageV", "ss_family"]
+- !private ["So16sockaddr_storageV", "ss_len"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- "Sz"
+- !private "Sb"
+- "10PerfectNet28BytesSwappingUnsignedIntegerP"
+- "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- "s5Int32V"
+- "10PerfectLib15JSONConvertibleP"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "10PerfectNet0B0C"
+- "Sj"
+- !private "Sq"
+- "10PerfectNet0aB5ErrorO"
+- !private "Sk"
+- !private "Sm"
+- "10PerfectNet15ReferenceBufferC"
+- !private "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "10PerfectNet20SocketFileDescriptorV"
+- "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "13PerfectThread9ThreadingV"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- !private "Sp"
+- !private "Sv"
+- !private "SV"
+- "SU"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+- !private "So8addrinfoV"
+- !private "So8sockaddrV"
+- !private "So11sockaddr_inV"
+- !private "So12sockaddr_in6V"
+- !private "So16sockaddr_storageV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectCrypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../asn1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../tls1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dtls1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pem2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../e_os2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl23.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl3.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509v3.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../md5.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pkcs7.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../sha.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ecdsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../rsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../obj_mac.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../hmac.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ec.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../rand.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pqueue.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../conf.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../opensslconf.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dh.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ecdh.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../lhash.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../stack.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../safestack.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../kssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/openssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pem.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../bn.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../bio.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../crypto.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../comp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../srtp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../evp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ossl_typ.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../buffer.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../err.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../symhacks.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../cms.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../objects.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../opensslv.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509_vfy.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9f795d064d80a9e79bf93042f4e69e42"

@@ -1,0 +1,499 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "logTerminal"
+- "netHandleQueue"
+- "NetEvent"
+provides-nominal:
+- "10PerfectNet0B5EventC"
+- "10PerfectNet0B5EventC6FilterO"
+provides-member:
+- ["10PerfectNet0B5EventC", ""]
+- ["10PerfectNet0B5EventC6FilterO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "..<"
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "DispatchQueue"
+- "Double"
+- !private "EINTR"
+- !private "ERROR"
+- "EVFILT_READ"
+- "EVFILT_TIMER"
+- "EVFILT_WRITE"
+- !private "EV_ADD"
+- !private "EV_DELETE"
+- !private "EV_ENABLE"
+- "EV_ERROR"
+- !private "EV_ONESHOT"
+- !private "FILT_READ"
+- !private "FILT_TIMER"
+- !private "FILT_WRITE"
+- !private "FLAG_NONE"
+- "FloatLiteralType"
+- !private "Int"
+- "Int16"
+- "Int32"
+- "IntegerLiteralType"
+- "KEVENT_FLAG_NONE"
+- !private "MemoryLayout"
+- "NetEvent"
+- "Never"
+- !private "OPEN_MAX"
+- !private "RLIMIT_NOFILE"
+- !private "SIGPIPE"
+- !private "SIG_IGN"
+- "SocketType"
+- "String"
+- "StringLiteralType"
+- "Threading"
+- !private "UInt"
+- !private "UInt16"
+- !private "UnicodeScalarType"
+- "UnsafeMutablePointer"
+- !private "errno"
+- !private "exit"
+- !private "getrlimit"
+- !private "invalidSocket"
+- "kevent"
+- !private "kqueue"
+- "logTerminal"
+- !private "memset"
+- !private "netEventQueue"
+- "netHandleQueue"
+- !private "netManageQueue"
+- !private "print"
+- !private "rlim_t"
+- !private "rlimit"
+- !private "setrlimit"
+- !private "sigaction"
+- !private "timespec"
+- !private "|"
+depends-member:
+- ["So17OS_dispatch_queueC8DispatchE10AttributesV", "concurrent"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["10PerfectNet28BytesSwappingUnsignedIntegerP", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "async"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "subscript"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "removeValue"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "allocate"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- ["s28CustomDebugStringConvertibleP", "runLoop"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "allocate"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- ["s17CustomReflectableP", "runLoop"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "removeValue"]
+- ["Se", "runLoop"]
+- !private ["Se", "subscript"]
+- ["SD", "init"]
+- !private ["SD", "removeValue"]
+- !private ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "init"]
+- ["8Dispatch0A3QoSV", "userInitiated"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "removeValue"]
+- ["SE", "runLoop"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "async"]
+- ["SQ", "concurrent"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "removeValue"]
+- ["SQ", "runLoop"]
+- !private ["SQ", "subscript"]
+- ["SQ", "userInitiated"]
+- ["s25ExpressibleByArrayLiteralP", "concurrent"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "runLoop"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["10PerfectNet0B5EventC6FilterO", "EVFILT_READ"]
+- !private ["10PerfectNet0B5EventC6FilterO", "EVFILT_WRITE"]
+- ["10PerfectNet0B5EventC6FilterO", "Int16"]
+- ["10PerfectNet0B5EventC6FilterO", "Int32"]
+- ["10PerfectNet0B5EventC6FilterO", "error"]
+- ["10PerfectNet0B5EventC6FilterO", "kqueueFilter"]
+- ["10PerfectNet0B5EventC6FilterO", "none"]
+- ["10PerfectNet0B5EventC6FilterO", "read"]
+- ["10PerfectNet0B5EventC6FilterO", "timer"]
+- ["10PerfectNet0B5EventC6FilterO", "write"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "allocate"]
+- !private ["SH", "async"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "removeValue"]
+- ["SH", "runLoop"]
+- !private ["SH", "subscript"]
+- !private ["Si", "init"]
+- !private ["s5Int16V", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "_getBuiltinLogicValue"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "removeValue"]
+- ["10PerfectLib15JSONConvertibleP", "runLoop"]
+- !private ["10PerfectLib15JSONConvertibleP", "subscript"]
+- ["13PerfectThread9ThreadingV4LockC", "init"]
+- !private ["13PerfectThread9ThreadingV4LockC", "lock"]
+- !private ["13PerfectThread9ThreadingV4LockC", "unlock"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "size"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "async"]
+- ["So8NSObjectP", "init"]
+- ["10PerfectNet0B5EventC", "Bool"]
+- ["10PerfectNet0B5EventC", "Double"]
+- !private ["10PerfectNet0B5EventC", "EINTR"]
+- !private ["10PerfectNet0B5EventC", "EVFILT_READ"]
+- !private ["10PerfectNet0B5EventC", "EVFILT_TIMER"]
+- !private ["10PerfectNet0B5EventC", "EVFILT_WRITE"]
+- !private ["10PerfectNet0B5EventC", "EV_ADD"]
+- !private ["10PerfectNet0B5EventC", "EV_DELETE"]
+- !private ["10PerfectNet0B5EventC", "EV_ENABLE"]
+- !private ["10PerfectNet0B5EventC", "EV_ERROR"]
+- !private ["10PerfectNet0B5EventC", "EV_ONESHOT"]
+- ["10PerfectNet0B5EventC", "EventCallback"]
+- ["10PerfectNet0B5EventC", "Filter"]
+- !private ["10PerfectNet0B5EventC", "Int"]
+- ["10PerfectNet0B5EventC", "Int16"]
+- ["10PerfectNet0B5EventC", "Int32"]
+- !private ["10PerfectNet0B5EventC", "MemoryLayout"]
+- ["10PerfectNet0B5EventC", "NetEvent"]
+- !private ["10PerfectNet0B5EventC", "OPEN_MAX"]
+- ["10PerfectNet0B5EventC", "QueuedSocket"]
+- !private ["10PerfectNet0B5EventC", "RLIMIT_NOFILE"]
+- !private ["10PerfectNet0B5EventC", "SIGPIPE"]
+- !private ["10PerfectNet0B5EventC", "SIG_IGN"]
+- ["10PerfectNet0B5EventC", "SocketType"]
+- ["10PerfectNet0B5EventC", "Threading"]
+- !private ["10PerfectNet0B5EventC", "UInt"]
+- !private ["10PerfectNet0B5EventC", "UInt16"]
+- ["10PerfectNet0B5EventC", "UnsafeMutablePointer"]
+- ["10PerfectNet0B5EventC", "add"]
+- !private ["10PerfectNet0B5EventC", "debug"]
+- !private ["10PerfectNet0B5EventC", "emptyCallback"]
+- !private ["10PerfectNet0B5EventC", "errno"]
+- ["10PerfectNet0B5EventC", "event"]
+- !private ["10PerfectNet0B5EventC", "evlist"]
+- !private ["10PerfectNet0B5EventC", "getrlimit"]
+- ["10PerfectNet0B5EventC", "init"]
+- !private ["10PerfectNet0B5EventC", "initOnce"]
+- ["10PerfectNet0B5EventC", "initialize"]
+- !private ["10PerfectNet0B5EventC", "invalidSocket"]
+- ["10PerfectNet0B5EventC", "kevent"]
+- !private ["10PerfectNet0B5EventC", "kq"]
+- !private ["10PerfectNet0B5EventC", "kqueue"]
+- !private ["10PerfectNet0B5EventC", "lock"]
+- !private ["10PerfectNet0B5EventC", "logTerminal"]
+- !private ["10PerfectNet0B5EventC", "loop"]
+- !private ["10PerfectNet0B5EventC", "memset"]
+- !private ["10PerfectNet0B5EventC", "netEventQueue"]
+- !private ["10PerfectNet0B5EventC", "netHandleQueue"]
+- ["10PerfectNet0B5EventC", "noTimeout"]
+- !private ["10PerfectNet0B5EventC", "numEvents"]
+- !private ["10PerfectNet0B5EventC", "print"]
+- !private ["10PerfectNet0B5EventC", "queuedSockets"]
+- ["10PerfectNet0B5EventC", "remove"]
+- !private ["10PerfectNet0B5EventC", "rlim_t"]
+- !private ["10PerfectNet0B5EventC", "rlimit"]
+- ["10PerfectNet0B5EventC", "runLoop"]
+- !private ["10PerfectNet0B5EventC", "setrlimit"]
+- !private ["10PerfectNet0B5EventC", "sigaction"]
+- ["10PerfectNet0B5EventC", "staticEvent"]
+- !private ["10PerfectNet0B5EventC", "timespec"]
+- !private ["Sj", "init"]
+- !private ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "init"]
+- ["s9OptionSetP", "concurrent"]
+- ["Sq", "runLoop"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["SY", "concurrent"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "removeValue"]
+- !private ["ST", "subscript"]
+- ["s10SetAlgebraP", "concurrent"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "init"]
+- !private ["Sx", "subscript"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["13PerfectThread9ThreadingV", "Lock"]
+- ["13PerfectThread9ThreadingV", "noTimeout"]
+- !private ["Su", "init"]
+- !private ["s6UInt16V", "init"]
+- !private ["s6UInt64V", "init"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "subscript"]
+- !private ["SU", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- ["s21_ObjectiveCBridgeableP", "runLoop"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s14_StringElementP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["So13__sigaction_uV", "__sa_handler"]
+- !private ["So6keventV", "data"]
+- !private ["So6keventV", "filter"]
+- !private ["So6keventV", "ident"]
+- !private ["So6keventV", "init"]
+- !private ["So6rlimitV", "init"]
+- !private ["So6rlimitV", "rlim_cur"]
+- !private ["So9sigactionV", "__sigaction_u"]
+- !private ["So9sigactionV", "init"]
+- !private ["So9sigactionV", "sa_flags"]
+- !private ["So8timespecV", "init"]
+depends-nominal:
+- "So17OS_dispatch_queueC8DispatchE10AttributesV"
+- "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "10PerfectNet28BytesSwappingUnsignedIntegerP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- "So18OS_dispatch_objectC"
+- "8Dispatch0A3QoSV"
+- "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "10PerfectNet0B5EventC6FilterO"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "s5Int16V"
+- !private "s5Int32V"
+- "10PerfectLib15JSONConvertibleP"
+- "13PerfectThread9ThreadingV4LockC"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "s10MirrorPathP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10PerfectNet0B5EventC"
+- !private "Sj"
+- "So9OS_objectC"
+- "s9OptionSetP"
+- "Sq"
+- "Sm"
+- "SY"
+- "ST"
+- "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "13PerfectThread9ThreadingV"
+- !private "Su"
+- !private "s6UInt16V"
+- !private "s6UInt64V"
+- !private "Sp"
+- !private "SU"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+- "s16_SwiftStringViewP"
+- !private "So13__sigaction_uV"
+- !private "So6keventV"
+- !private "So6rlimitV"
+- !private "So9sigactionV"
+- !private "So8timespecV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectCrypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../asn1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../tls1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dtls1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pem2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../e_os2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl23.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl3.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509v3.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../md5.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pkcs7.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../sha.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ecdsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../rsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../obj_mac.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../hmac.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ec.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../rand.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pqueue.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../conf.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../opensslconf.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dh.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ecdh.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../lhash.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../stack.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../safestack.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../kssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/openssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pem.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../bn.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../bio.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../crypto.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../comp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../srtp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../evp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ossl_typ.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../buffer.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../err.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../symhacks.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../cms.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../objects.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../opensslv.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509_vfy.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e717cc98f7258657ef4c496869442445"

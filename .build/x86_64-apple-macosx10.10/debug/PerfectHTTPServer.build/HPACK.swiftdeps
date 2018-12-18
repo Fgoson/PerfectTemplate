@@ -1,0 +1,713 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HeaderField"
+- "=="
+- "HeaderListener"
+- "IndexType"
+- "HuffmanEncoder"
+- "HuffmanDecoder"
+- "HPACKEncoder"
+- "HPACKDecoder"
+provides-nominal:
+- "17PerfectHTTPServer11HeaderFieldC"
+- "17PerfectHTTPServer14HeaderListenerP"
+- "17PerfectHTTPServer9IndexTypeO"
+- "17PerfectHTTPServer14HuffmanEncoderC"
+- "17PerfectHTTPServer14HuffmanDecoderC"
+- "17PerfectHTTPServer14HuffmanDecoderC9ExceptionO"
+- "17PerfectHTTPServer14HuffmanDecoderC4NodeC"
+- "17PerfectHTTPServer12HPACKEncoderC"
+- "17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC"
+- "17PerfectHTTPServer12HPACKDecoderC"
+- "17PerfectHTTPServer12HPACKDecoderC9ExceptionO"
+- "17PerfectHTTPServer12HPACKDecoderC5StateO"
+provides-member:
+- ["17PerfectHTTPServer11HeaderFieldC", ""]
+- ["17PerfectHTTPServer14HeaderListenerP", ""]
+- ["17PerfectHTTPServer9IndexTypeO", ""]
+- ["17PerfectHTTPServer14HuffmanEncoderC", ""]
+- ["17PerfectHTTPServer14HuffmanDecoderC", ""]
+- ["17PerfectHTTPServer14HuffmanDecoderC9ExceptionO", ""]
+- ["17PerfectHTTPServer14HuffmanDecoderC4NodeC", ""]
+- ["17PerfectHTTPServer12HPACKEncoderC", ""]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", ""]
+- ["17PerfectHTTPServer12HPACKDecoderC", ""]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", ""]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "%"
+- !private "&"
+- !private "&&"
+- !private "&*"
+- !private "&+"
+- !private "+"
+- !private "+="
+- !private "-"
+- "-="
+- !private "..."
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private "<<"
+- !private "<<="
+- !private "<="
+- "=="
+- !private "==="
+- ">"
+- !private ">="
+- !private ">>"
+- !private ">>="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Bytes"
+- "DynamicTable"
+- "Error"
+- "FloatLiteralType"
+- "HPACKDecoder"
+- "HPACKEncoder"
+- "HeaderField"
+- "HeaderListener"
+- "HuffmanDecoder"
+- "HuffmanEncoder"
+- "IndexType"
+- "Int"
+- "IntegerLiteralType"
+- "StaticTable"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt8"
+- !private "UTF8Encoding"
+- "UnicodeScalarType"
+- "huffmanCodeLengths"
+- "huffmanCodes"
+- !private "huffmanDecoderInstance"
+- !private "huffmanEOS"
+- !private "huffmanEncoderInstance"
+- !private "min"
+- !private "|"
+- !private "|="
+- !private "||"
+- !private "~"
+depends-member:
+- !private ["Sa", "append"]
+- ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- ["s13ArrayProtocolP", "count"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "append"]
+- ["SK", "count"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- ["Sb", "_getBuiltinLogicValue"]
+- !private ["10PerfectLib5BytesC", "availableExportBytes"]
+- !private ["10PerfectLib5BytesC", "export8Bits"]
+- !private ["10PerfectLib5BytesC", "exportBytes"]
+- !private ["10PerfectLib5BytesC", "import8Bits"]
+- !private ["10PerfectLib5BytesC", "importBytes"]
+- !private ["10PerfectLib5BytesC", "init"]
+- !private ["10PerfectLib5BytesC", "position"]
+- ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "subscript"]
+- !private ["Sl", "append"]
+- ["Sl", "count"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- ["Se", "count"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["Se", "subscript"]
+- ["SD", "init"]
+- ["SD", "subscript"]
+- ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- ["SE", "count"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SE", "subscript"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "append"]
+- ["SQ", "count"]
+- !private ["SQ", "decompressionException"]
+- !private ["SQ", "eosDecoded"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "illegalIndexValue"]
+- ["SQ", "incremental"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "invalidPadding"]
+- !private ["SQ", "maxDynamicTableSizeChangeRequested"]
+- ["SQ", "never"]
+- ["SQ", "none"]
+- ["SQ", "readHeaderRepresentation"]
+- ["SQ", "readIndexedHeader"]
+- ["SQ", "readIndexedHeaderName"]
+- ["SQ", "readLiteralHeaderName"]
+- ["SQ", "readLiteralHeaderNameLength"]
+- ["SQ", "readLiteralHeaderNameLengthPrefix"]
+- ["SQ", "readLiteralHeaderValue"]
+- ["SQ", "readLiteralHeaderValueLength"]
+- ["SQ", "readLiteralHeaderValueLengthPrefix"]
+- ["SQ", "readMaxDynamicTableSize"]
+- ["SQ", "skipLiteralHeaderName"]
+- ["SQ", "skipLiteralHeaderValue"]
+- ["SQ", "subscript"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "decompressionException"]
+- !private ["s5ErrorP", "eosDecoded"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "illegalIndexValue"]
+- !private ["s5ErrorP", "invalidPadding"]
+- !private ["s5ErrorP", "maxDynamicTableSizeChangeRequested"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "__derived_enum_equals"]
+- ["17PerfectHTTPServer14HuffmanDecoderC9ExceptionO", "__derived_enum_equals"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "_code"]
+- ["17PerfectHTTPServer14HuffmanDecoderC9ExceptionO", "_code"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "_domain"]
+- ["17PerfectHTTPServer14HuffmanDecoderC9ExceptionO", "_domain"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "_getEmbeddedNSError"]
+- ["17PerfectHTTPServer14HuffmanDecoderC9ExceptionO", "_getEmbeddedNSError"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "_userInfo"]
+- ["17PerfectHTTPServer14HuffmanDecoderC9ExceptionO", "_userInfo"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "decompressionException"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "deinit"]
+- ["17PerfectHTTPServer14HuffmanDecoderC9ExceptionO", "deinit"]
+- ["17PerfectHTTPServer14HuffmanDecoderC9ExceptionO", "eosDecoded"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "hash"]
+- ["17PerfectHTTPServer14HuffmanDecoderC9ExceptionO", "hash"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "hashValue"]
+- ["17PerfectHTTPServer14HuffmanDecoderC9ExceptionO", "hashValue"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "illegalIndexValue"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "invalidMaxDynamicTableSize"]
+- ["17PerfectHTTPServer14HuffmanDecoderC9ExceptionO", "invalidPadding"]
+- ["17PerfectHTTPServer12HPACKDecoderC9ExceptionO", "maxDynamicTableSizeChangeRequested"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "Bool"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "Bytes"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "DynamicTable"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "Error"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "Exception"]
+- !private ["17PerfectHTTPServer12HPACKDecoderC", "HPACKDecoder"]
+- !private ["17PerfectHTTPServer12HPACKDecoderC", "HPACKEncoder"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "HeaderField"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "HeaderListener"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "IndexType"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "Int"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "State"]
+- !private ["17PerfectHTTPServer12HPACKDecoderC", "StaticTable"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "UInt8"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "addHeader"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "decode"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "decodeULE128"]
+- !private ["17PerfectHTTPServer12HPACKDecoderC", "dynamicTable"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "empty"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "encoderMaxDynamicTableSize"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "endHeaderBlock"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "exceedsMaxHeaderSize"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "getHeaderField"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "getMaxHeaderTableSize"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "headerSize"]
+- !private ["17PerfectHTTPServer12HPACKDecoderC", "huffmanDecoderInstance"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "huffmanEncoded"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "index"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "indexHeader"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "indexType"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "init"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "insertHeader"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "length"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "maxDynamicTableSize"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "maxDynamicTableSizeChangeRequired"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "maxHeaderSize"]
+- !private ["17PerfectHTTPServer12HPACKDecoderC", "min"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "name"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "nameLength"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "readName"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "readStringLiteral"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "reset"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "setDynamicTableSize"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "setMaxHeaderTableSize"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "size"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "skipLength"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "state"]
+- ["17PerfectHTTPServer12HPACKDecoderC", "valueLength"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "Bool"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "Bytes"]
+- !private ["17PerfectHTTPServer12HPACKEncoderC", "HPACKEncoder"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "HeaderEntry"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "HeaderField"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "IndexType"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "Int"]
+- !private ["17PerfectHTTPServer12HPACKEncoderC", "StaticTable"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "String"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "UInt8"]
+- !private ["17PerfectHTTPServer12HPACKEncoderC", "UTF8Encoding"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "add"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "bucketSize"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "capacity"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "clear"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "empty"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "encodeHeader"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "encodeInteger"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "encodeLiteral"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "encodeStringLiteral"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "ensureCapacity"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "getEntry"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "getHeaderField"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "getIndex"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "getNameIndex"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "hash"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "head"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "headerFields"]
+- !private ["17PerfectHTTPServer12HPACKEncoderC", "huffmanEncoderInstance"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "index"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "indexMax"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "indexMin"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "init"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "length"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "maxHeaderTableSize"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "remove"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "setMaxHeaderTableSize"]
+- ["17PerfectHTTPServer12HPACKEncoderC", "size"]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getBuiltinLogicValue"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_userInfo"]
+- !private ["SH", "append"]
+- ["SH", "count"]
+- !private ["SH", "decompressionException"]
+- !private ["SH", "eosDecoded"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "illegalIndexValue"]
+- ["SH", "incremental"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "invalidPadding"]
+- !private ["SH", "maxDynamicTableSizeChangeRequested"]
+- ["SH", "never"]
+- ["SH", "none"]
+- ["SH", "readHeaderRepresentation"]
+- ["SH", "readIndexedHeader"]
+- ["SH", "readIndexedHeaderName"]
+- ["SH", "readLiteralHeaderName"]
+- ["SH", "readLiteralHeaderNameLength"]
+- ["SH", "readLiteralHeaderNameLengthPrefix"]
+- ["SH", "readLiteralHeaderValue"]
+- ["SH", "readLiteralHeaderValueLength"]
+- ["SH", "readLiteralHeaderValueLengthPrefix"]
+- ["SH", "readMaxDynamicTableSize"]
+- ["SH", "skipLiteralHeaderName"]
+- ["SH", "skipLiteralHeaderValue"]
+- ["SH", "subscript"]
+- !private ["s6HasherV", "combine"]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "HeaderEntry"]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "Int"]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "UInt8"]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "addBefore"]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "after"]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "before"]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "hash"]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "index"]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "init"]
+- !private ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "name"]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "next"]
+- ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "remove"]
+- !private ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "size"]
+- !private ["17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC", "value"]
+- ["17PerfectHTTPServer11HeaderFieldC", "HeaderEntry"]
+- !private ["17PerfectHTTPServer11HeaderFieldC", "HeaderField"]
+- ["17PerfectHTTPServer11HeaderFieldC", "Int"]
+- ["17PerfectHTTPServer11HeaderFieldC", "String"]
+- ["17PerfectHTTPServer11HeaderFieldC", "UInt8"]
+- !private ["17PerfectHTTPServer11HeaderFieldC", "UTF8Encoding"]
+- ["17PerfectHTTPServer11HeaderFieldC", ""]
+- ["17PerfectHTTPServer11HeaderFieldC", "addBefore"]
+- ["17PerfectHTTPServer11HeaderFieldC", "after"]
+- ["17PerfectHTTPServer11HeaderFieldC", "before"]
+- ["17PerfectHTTPServer11HeaderFieldC", "hash"]
+- ["17PerfectHTTPServer11HeaderFieldC", "headerEntryOverhead"]
+- ["17PerfectHTTPServer11HeaderFieldC", "index"]
+- ["17PerfectHTTPServer11HeaderFieldC", "init"]
+- ["17PerfectHTTPServer11HeaderFieldC", "name"]
+- ["17PerfectHTTPServer11HeaderFieldC", "nameStr"]
+- ["17PerfectHTTPServer11HeaderFieldC", "next"]
+- ["17PerfectHTTPServer11HeaderFieldC", "remove"]
+- ["17PerfectHTTPServer11HeaderFieldC", "size"]
+- ["17PerfectHTTPServer11HeaderFieldC", "sizeOf"]
+- ["17PerfectHTTPServer11HeaderFieldC", "value"]
+- ["17PerfectHTTPServer14HeaderListenerP", "Bool"]
+- ["17PerfectHTTPServer14HeaderListenerP", "UInt8"]
+- ["17PerfectHTTPServer14HeaderListenerP", "addHeader"]
+- ["17PerfectHTTPServer14HuffmanDecoderC", "Bool"]
+- ["17PerfectHTTPServer14HuffmanDecoderC", "Error"]
+- ["17PerfectHTTPServer14HuffmanDecoderC", "Exception"]
+- !private ["17PerfectHTTPServer14HuffmanDecoderC", "HuffmanDecoder"]
+- ["17PerfectHTTPServer14HuffmanDecoderC", "Int"]
+- ["17PerfectHTTPServer14HuffmanDecoderC", "Node"]
+- ["17PerfectHTTPServer14HuffmanDecoderC", "UInt8"]
+- ["17PerfectHTTPServer14HuffmanDecoderC", "buildTree"]
+- ["17PerfectHTTPServer14HuffmanDecoderC", "decode"]
+- !private ["17PerfectHTTPServer14HuffmanDecoderC", "huffmanEOS"]
+- ["17PerfectHTTPServer14HuffmanDecoderC", "init"]
+- ["17PerfectHTTPServer14HuffmanDecoderC", "insert"]
+- ["17PerfectHTTPServer14HuffmanDecoderC", "root"]
+- ["17PerfectHTTPServer14HuffmanEncoderC", "Bytes"]
+- ["17PerfectHTTPServer14HuffmanEncoderC", "Int"]
+- ["17PerfectHTTPServer14HuffmanEncoderC", "UInt8"]
+- ["17PerfectHTTPServer14HuffmanEncoderC", "codes"]
+- ["17PerfectHTTPServer14HuffmanEncoderC", "encode"]
+- ["17PerfectHTTPServer14HuffmanEncoderC", "getEncodedLength"]
+- ["17PerfectHTTPServer14HuffmanEncoderC", "init"]
+- ["17PerfectHTTPServer14HuffmanEncoderC", "lengths"]
+- ["17PerfectHTTPServer9IndexTypeO", "__derived_enum_equals"]
+- ["17PerfectHTTPServer9IndexTypeO", "deinit"]
+- ["17PerfectHTTPServer9IndexTypeO", "hash"]
+- ["17PerfectHTTPServer9IndexTypeO", "hashValue"]
+- ["17PerfectHTTPServer9IndexTypeO", "incremental"]
+- ["17PerfectHTTPServer9IndexTypeO", "never"]
+- ["17PerfectHTTPServer9IndexTypeO", "none"]
+- !private ["Si", "init"]
+- ["10PerfectLib15JSONConvertibleP", "_getBuiltinLogicValue"]
+- !private ["10PerfectLib15JSONConvertibleP", "append"]
+- ["10PerfectLib15JSONConvertibleP", "count"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- ["10PerfectLib15JSONConvertibleP", "subscript"]
+- ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "subscript"]
+- ["17PerfectHTTPServer14HuffmanDecoderC4NodeC", "Bool"]
+- ["17PerfectHTTPServer14HuffmanDecoderC4NodeC", "Int"]
+- ["17PerfectHTTPServer14HuffmanDecoderC4NodeC", "Node"]
+- ["17PerfectHTTPServer14HuffmanDecoderC4NodeC", "UInt8"]
+- ["17PerfectHTTPServer14HuffmanDecoderC4NodeC", "bits"]
+- ["17PerfectHTTPServer14HuffmanDecoderC4NodeC", "children"]
+- ["17PerfectHTTPServer14HuffmanDecoderC4NodeC", "init"]
+- ["17PerfectHTTPServer14HuffmanDecoderC4NodeC", "isTerminal"]
+- ["17PerfectHTTPServer14HuffmanDecoderC4NodeC", "symbol"]
+- !private ["Sj", "init"]
+- !private ["13PerfectCrypto5OctalP", "init"]
+- !private ["Sk", "append"]
+- ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- ["Sm", "count"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "append"]
+- ["ST", "count"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "__derived_enum_equals"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "deinit"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "hash"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "hashValue"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "readHeaderRepresentation"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "readIndexedHeader"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "readIndexedHeaderName"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "readLiteralHeaderName"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "readLiteralHeaderNameLength"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "readLiteralHeaderNameLengthPrefix"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "readLiteralHeaderValue"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "readLiteralHeaderValueLength"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "readLiteralHeaderValueLengthPrefix"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "readMaxDynamicTableSize"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "skipLiteralHeaderName"]
+- ["17PerfectHTTPServer12HPACKDecoderC5StateO", "skipLiteralHeaderValue"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s5UInt8V", "init"]
+- !private ["10PerfectLib12UTF8EncodingV", "decode"]
+- !private ["10PerfectLib12UTF8EncodingV", "encode"]
+- !private ["SU", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s14_StringElementP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- "SK"
+- !private "Sz"
+- "Sb"
+- !private "10PerfectLib5BytesC"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- "17PerfectHTTPServer12HPACKDecoderC9ExceptionO"
+- "17PerfectHTTPServer14HuffmanDecoderC9ExceptionO"
+- "17PerfectHTTPServer12HPACKDecoderC9ExceptionO"
+- "17PerfectHTTPServer14HuffmanDecoderC9ExceptionO"
+- "17PerfectHTTPServer12HPACKDecoderC9ExceptionO"
+- "17PerfectHTTPServer14HuffmanDecoderC9ExceptionO"
+- "17PerfectHTTPServer12HPACKDecoderC9ExceptionO"
+- "17PerfectHTTPServer14HuffmanDecoderC9ExceptionO"
+- "17PerfectHTTPServer12HPACKDecoderC9ExceptionO"
+- "17PerfectHTTPServer14HuffmanDecoderC9ExceptionO"
+- "17PerfectHTTPServer12HPACKDecoderC9ExceptionO"
+- "17PerfectHTTPServer14HuffmanDecoderC9ExceptionO"
+- "17PerfectHTTPServer12HPACKDecoderC9ExceptionO"
+- "17PerfectHTTPServer14HuffmanDecoderC9ExceptionO"
+- "17PerfectHTTPServer12HPACKDecoderC9ExceptionO"
+- "17PerfectHTTPServer14HuffmanDecoderC9ExceptionO"
+- "17PerfectHTTPServer12HPACKDecoderC9ExceptionO"
+- "17PerfectHTTPServer14HuffmanDecoderC9ExceptionO"
+- "17PerfectHTTPServer12HPACKDecoderC9ExceptionO"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "17PerfectHTTPServer12HPACKDecoderC"
+- "17PerfectHTTPServer12HPACKEncoderC"
+- "SH"
+- !private "s6HasherV"
+- "17PerfectHTTPServer12HPACKEncoderC11HeaderEntryC"
+- "17PerfectHTTPServer11HeaderFieldC"
+- "17PerfectHTTPServer14HeaderListenerP"
+- "17PerfectHTTPServer14HuffmanDecoderC"
+- "17PerfectHTTPServer14HuffmanEncoderC"
+- "17PerfectHTTPServer9IndexTypeO"
+- !private "Si"
+- "10PerfectLib15JSONConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- "17PerfectHTTPServer14HuffmanDecoderC4NodeC"
+- !private "Sj"
+- !private "13PerfectCrypto5OctalP"
+- "Sk"
+- "Sm"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "17PerfectHTTPServer12HPACKDecoderC5StateO"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s5UInt8V"
+- !private "10PerfectLib12UTF8EncodingV"
+- !private "SU"
+- !private "s18_BitwiseOperationsP"
+- "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectCrypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/os.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../asn1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../tls1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dtls1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pem2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../e_os2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl23.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl3.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509v3.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../md5.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pkcs7.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../sha.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ecdsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../rsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-CZlib-src.git--6264614779283734304/PerfectCZlib/include/../zlib.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-CZlib-src.git--6264614779283734304/PerfectCZlib/include/czlib.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../obj_mac.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../hmac.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ec.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../rand.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pqueue.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../conf.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../opensslconf.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-CZlib-src.git--6264614779283734304/PerfectCZlib/include/../zconf.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dh.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ecdh.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../lhash.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../stack.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../safestack.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-CZlib-src.git--6264614779283734304/PerfectCZlib/include/../zutil.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../kssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/openssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pem.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../bn.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../bio.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../crypto.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../comp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../srtp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../evp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ossl_typ.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../buffer.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectCHTTPParser/include/http_parser.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../err.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-CZlib-src.git--6264614779283734304/PerfectCZlib/include/../inftrees.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../symhacks.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../cms.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../objects.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../opensslv.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509_vfy.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/module.modulemap"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-CZlib-src.git--6264614779283734304/PerfectCZlib/include/module.modulemap"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectCHTTPParser/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0f8049143364b7483eb41dd6a62652c8"

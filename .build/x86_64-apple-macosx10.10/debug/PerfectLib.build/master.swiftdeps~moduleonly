@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "c85adb16fe252a8575f5511babda991a"
+build_time: [1544686367, 814134000]
+inputs:
+  "/Users/honpe/PerfectTemplate/.build/checkouts/PerfectLib.git-6435051526859923445/Sources/PerfectLib/Bytes.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/PerfectLib.git-6435051526859923445/Sources/PerfectLib/Dir.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/PerfectLib.git-6435051526859923445/Sources/PerfectLib/File.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/PerfectLib.git-6435051526859923445/Sources/PerfectLib/JSONConvertible.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/PerfectLib.git-6435051526859923445/Sources/PerfectLib/Log.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/PerfectLib.git-6435051526859923445/Sources/PerfectLib/PerfectError.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/PerfectLib.git-6435051526859923445/Sources/PerfectLib/PerfectServer.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/PerfectLib.git-6435051526859923445/Sources/PerfectLib/SysProcess.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/PerfectLib.git-6435051526859923445/Sources/PerfectLib/Utilities.swift": [1544686364, 0]

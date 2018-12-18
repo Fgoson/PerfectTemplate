@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/master.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Net.git--3566774754905739494/Sources/PerfectNet/Net.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/Net.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/Net.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/Net~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/Net.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Net.git--3566774754905739494/Sources/PerfectNet/NetAddress.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetAddress.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetAddress.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetAddress~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetAddress.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Net.git--3566774754905739494/Sources/PerfectNet/NetEvent.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetEvent.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetEvent.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetEvent~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetEvent.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Net.git--3566774754905739494/Sources/PerfectNet/NetNamedPipe.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetNamedPipe.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetNamedPipe.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetNamedPipe~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetNamedPipe.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Net.git--3566774754905739494/Sources/PerfectNet/NetTCP.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetTCP.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetTCP.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetTCP~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetTCP.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Net.git--3566774754905739494/Sources/PerfectNet/NetTCPSSL.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetTCPSSL.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetTCPSSL.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetTCPSSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetTCPSSL.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Net.git--3566774754905739494/Sources/PerfectNet/NetUDP.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetUDP.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetUDP.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetUDP~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.build/NetUDP.swiftdeps"
+  }
+}

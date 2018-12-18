@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "1df033761eaeaab257675c3cb0e0ee79"
+build_time: [1544686382, 636367000]
+inputs:
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Crypto.git-5059022860495037184/Sources/PerfectCrypto/Algorithms.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Crypto.git-5059022860495037184/Sources/PerfectCrypto/ByteIO.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Crypto.git-5059022860495037184/Sources/PerfectCrypto/Extensions.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Crypto.git-5059022860495037184/Sources/PerfectCrypto/JWT.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Crypto.git-5059022860495037184/Sources/PerfectCrypto/Keys.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Crypto.git-5059022860495037184/Sources/PerfectCrypto/OpenSSLInternal.swift": [1544686364, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Crypto.git-5059022860495037184/Sources/PerfectCrypto/PerfectCrypto.swift": [1544686364, 0]

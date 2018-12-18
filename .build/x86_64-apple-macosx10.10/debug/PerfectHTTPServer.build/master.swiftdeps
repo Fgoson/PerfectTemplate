@@ -1,0 +1,22 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "b9c7c15312df5de4d6abbc792dcf21b9"
+build_time: [1544686388, 464047000]
+inputs:
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP11/HTTP11Request.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP11/HTTP11Response.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HPACK.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2Client.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2Frame.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2FrameReader.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2FrameWriter.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2PrefaceValidator.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2Request.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2Response.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2Session.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2SessionSettings.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTPContentCompression.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTPMultiplexer.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTPServer.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTPServerEx.swift": [1544686365, 0]
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": [1544686365, 0]

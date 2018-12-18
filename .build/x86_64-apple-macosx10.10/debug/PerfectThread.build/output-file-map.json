@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/master.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Thread.git--3740803043861045398/Sources/PerfectThread/Promise.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Thread.git--3740803043861045398/Sources/PerfectThread/ThreadQueue.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-Thread.git--3740803043861045398/Sources/PerfectThread/Threading.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.swiftdeps"
+  }
+}

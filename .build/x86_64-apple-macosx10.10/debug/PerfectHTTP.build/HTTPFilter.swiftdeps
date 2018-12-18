@@ -1,0 +1,150 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPFilterPriority"
+- "HTTPRequestFilterResult"
+- "HTTPResponseFilterResult"
+- "HTTPRequestFilter"
+- "HTTPResponseFilter"
+provides-nominal:
+- "11PerfectHTTP18HTTPFilterPriorityO"
+- "11PerfectHTTP23HTTPRequestFilterResultO"
+- "11PerfectHTTP24HTTPResponseFilterResultO"
+- "11PerfectHTTP17HTTPRequestFilterP"
+- "11PerfectHTTP18HTTPResponseFilterP"
+provides-member:
+- ["11PerfectHTTP18HTTPFilterPriorityO", ""]
+- ["11PerfectHTTP23HTTPRequestFilterResultO", ""]
+- ["11PerfectHTTP24HTTPResponseFilterResultO", ""]
+- ["11PerfectHTTP17HTTPRequestFilterP", ""]
+- ["11PerfectHTTP18HTTPResponseFilterP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "FloatLiteralType"
+- "HTTPFilterPriority"
+- "HTTPRequest"
+- "HTTPRequestFilter"
+- "HTTPRequestFilterResult"
+- "HTTPResponse"
+- "HTTPResponseFilter"
+- "HTTPResponseFilterResult"
+- !private "IntegerLiteralType"
+depends-member:
+- ["SQ", ""]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["11PerfectHTTP18HTTPFilterPriorityO", "__derived_enum_equals"]
+- ["11PerfectHTTP18HTTPFilterPriorityO", "deinit"]
+- ["11PerfectHTTP18HTTPFilterPriorityO", "hash"]
+- ["11PerfectHTTP18HTTPFilterPriorityO", "hashValue"]
+- ["11PerfectHTTP18HTTPFilterPriorityO", "high"]
+- ["11PerfectHTTP18HTTPFilterPriorityO", "low"]
+- ["11PerfectHTTP18HTTPFilterPriorityO", "medium"]
+- ["11PerfectHTTP17HTTPRequestFilterP", "HTTPRequest"]
+- ["11PerfectHTTP17HTTPRequestFilterP", "HTTPRequestFilterResult"]
+- ["11PerfectHTTP17HTTPRequestFilterP", "HTTPResponse"]
+- ["11PerfectHTTP17HTTPRequestFilterP", "filter"]
+- ["11PerfectHTTP23HTTPRequestFilterResultO", "HTTPRequest"]
+- ["11PerfectHTTP23HTTPRequestFilterResultO", "HTTPResponse"]
+- ["11PerfectHTTP23HTTPRequestFilterResultO", "continue"]
+- ["11PerfectHTTP23HTTPRequestFilterResultO", "execute"]
+- ["11PerfectHTTP23HTTPRequestFilterResultO", "halt"]
+- ["11PerfectHTTP18HTTPResponseFilterP", "HTTPResponse"]
+- ["11PerfectHTTP18HTTPResponseFilterP", "HTTPResponseFilterResult"]
+- ["11PerfectHTTP18HTTPResponseFilterP", "filterBody"]
+- ["11PerfectHTTP18HTTPResponseFilterP", "filterHeaders"]
+- ["11PerfectHTTP24HTTPResponseFilterResultO", "__derived_enum_equals"]
+- ["11PerfectHTTP24HTTPResponseFilterResultO", "continue"]
+- ["11PerfectHTTP24HTTPResponseFilterResultO", "deinit"]
+- ["11PerfectHTTP24HTTPResponseFilterResultO", "done"]
+- ["11PerfectHTTP24HTTPResponseFilterResultO", "halt"]
+- ["11PerfectHTTP24HTTPResponseFilterResultO", "hash"]
+- ["11PerfectHTTP24HTTPResponseFilterResultO", "hashValue"]
+- ["SH", ""]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+depends-nominal:
+- "SQ"
+- "11PerfectHTTP18HTTPFilterPriorityO"
+- "11PerfectHTTP17HTTPRequestFilterP"
+- "11PerfectHTTP23HTTPRequestFilterResultO"
+- "11PerfectHTTP18HTTPResponseFilterP"
+- "11PerfectHTTP24HTTPResponseFilterResultO"
+- "SH"
+- !private "s6HasherV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectCrypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/os.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectNet.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../asn1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../tls1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dtls1.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pem2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../e_os2.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl23.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl3.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509v3.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../md5.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pkcs7.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../sha.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ecdsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../rsa.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../obj_mac.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../hmac.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ec.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../rand.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pqueue.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../conf.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../opensslconf.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../dh.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ecdh.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../lhash.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../stack.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../safestack.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../kssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/openssl.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../pem.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../bn.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../bio.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../crypto.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../comp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../srtp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../evp.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../ossl_typ.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../buffer.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../err.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../symhacks.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../cms.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../objects.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../opensslv.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/../x509_vfy.h"
+- "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-COpenSSL.git--7342027547760993510/COpenSSL/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "faca457f2bff93ae3262167e6e3274da"

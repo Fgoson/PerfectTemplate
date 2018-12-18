@@ -1,0 +1,113 @@
+{
+  "": {
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/master.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP11/HTTP11Request.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP11Request.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP11/HTTP11Request.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP11Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP11Request.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP11/HTTP11Response.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP11Response.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP11/HTTP11Response.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP11Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP11Response.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HPACK.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HPACK.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2/HPACK.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HPACK~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HPACK.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2/HTTP2.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2Client.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Client.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2/HTTP2Client.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Client~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Client.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2Frame.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Frame.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2/HTTP2Frame.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Frame~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Frame.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2FrameReader.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2FrameReader.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2/HTTP2FrameReader.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2FrameReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2FrameReader.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2FrameWriter.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2FrameWriter.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2/HTTP2FrameWriter.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2FrameWriter~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2FrameWriter.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2PrefaceValidator.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2PrefaceValidator.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2/HTTP2PrefaceValidator.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2PrefaceValidator~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2PrefaceValidator.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2Request.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Request.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2/HTTP2Request.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Request.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2Response.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Response.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2/HTTP2Response.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Response.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2Session.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Session.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2/HTTP2Session.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Session~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2Session.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTP2/HTTP2SessionSettings.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2SessionSettings.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2/HTTP2SessionSettings.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2SessionSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTP2SessionSettings.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTPContentCompression.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPContentCompression.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPContentCompression.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPContentCompression~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPContentCompression.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTPMultiplexer.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPMultiplexer.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPMultiplexer.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPMultiplexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPMultiplexer.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTPServer.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServer.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServer.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServer~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServer.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTPServerEx.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServerEx.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServerEx.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServerEx~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServerEx.swiftdeps"
+  },
+  "/Users/honpe/PerfectTemplate/.build/checkouts/Perfect-HTTPServer.git--1478917114610517939/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": {
+    "dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServerExConfig.d",
+    "object": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServerExConfig.swift.o",
+    "swiftmodule": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServerExConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/honpe/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.build/HTTPServerExConfig.swiftdeps"
+  }
+}

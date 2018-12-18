@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "7a089a039ea79a31bca5eaf1ef5ed626"
+build_time: [1544686391, 396607000]
+inputs:
+  "/Users/honpe/PerfectTemplate/Sources/PerfectTemplate/main.swift": [1544686288, 0]
